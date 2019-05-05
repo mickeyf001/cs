@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: init-demo
+spec:
+  restartPolicy: Never
+  volumes:
+  - name: workdir
+    emptyDir: {}
+  containers:
+  - name: nginx
+    image: nginx
+    command: [ "/bin/bash", "-ce", "tail -f /dev/null" ]
+  # These containers are run during pod initialization
+  - name: install
+    image: busybox
+  dnsPolicy: Default
