@@ -1,0 +1,15 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: default-deny
+  namespace: tomcat01 
+spec:
+  podSelector:
+    matchLabels:
+      run: mytomcat01-65854b6db6-gfnjw 
+  egress:
+  - to:
+    - podSelector:
+        matchLabels:
+          run: nginx88
+ 
