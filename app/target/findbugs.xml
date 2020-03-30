@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<BugCollection version='3.0.1' threshold='low' effort=''><Error></Error><Project><SrcDir>/Users/mickeyf/maven/demo-project2/app/src/main/java</SrcDir><SrcDir>/Users/mickeyf/maven/demo-project2/app/target/generated-sources/annotations</SrcDir><SrcDir>/Users/mickeyf/maven/demo-project2/app/src/test/java</SrcDir></Project></BugCollection>
