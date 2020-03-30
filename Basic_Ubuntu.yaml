@@ -1,0 +1,30 @@
+formatVersion: 1
+name: Basic-Ubuntu
+version: 1
+inputs:
+  count:
+    type: integer
+    minimum: 1
+    default: 1
+    maximum: 2
+    title: Number of Instances
+  environment:
+    type: string
+    enum:
+      - Dev
+      - Test
+      - Prod
+resources:
+  BasicUbuntu:
+    type: Cloud.Machine
+    metadata:
+      layoutPosition:
+        - 0
+        - 0
+    properties:
+      name: BasicUbuntu
+      image: ubuntu
+      flavor: small
+      count: '${input.count}'
+      constraints:
+        - tag: '${"env:" + to_lower(input.environment)}'
