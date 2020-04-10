@@ -21,4 +21,17 @@ public class HelloTest {
         assertEquals("1", "1");
                 
     }
+    
+    @Test
+    public void testMickey() {
+        Hello hi = new Hello();
+        String hello = hi.sayHello();
+
+        assertEquals("Mickey", "Mickey");
+                
+    }
+    
+    
+    
+    
 }
