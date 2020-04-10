@@ -25,10 +25,10 @@ public class Hello {
         this.times = (short) times;
     }
 
-     /**
+    /**
      * Say "Hello!".
      * @return this Student's name.
-     */
+    */
     public String sayHello() {
         String hello = "";
         for (short i = 0; i < times; i++) {
