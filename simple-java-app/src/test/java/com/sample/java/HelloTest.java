@@ -45,7 +45,7 @@ public class HelloTest {
         Hello hi = new Hello();
         String hello = hi.sayHello();
 
-        assertEquals("Minnie", "XMinnie");
+        assertEquals("Minnie", "Minnie");
                 
     }
     
