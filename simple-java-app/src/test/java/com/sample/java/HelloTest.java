@@ -9,7 +9,7 @@ import static org.junit.Assert.*;
  * Unit test for Hello.
  * <p/>
  * A unit test aims to test all code and code paths of a specific class.
- */
+*/ 
 public class HelloTest {
 
     @Test
@@ -17,6 +17,8 @@ public class HelloTest {
         Hello hi = new Hello();
         String hello = hi.sayHello();
 
-        assertNotEquals(hello, "Hello");
+        //assertNotEquals(hello, "Hello");
+        assertNotEquals(hello, "Mickey");
+                
     }
 }
