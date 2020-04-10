@@ -12,12 +12,13 @@ import static org.junit.Assert.assertThat;
  * A unit test aims to test all code and code paths of a specific class.
  * <p/>
  * This test uses PowerMock and Mockito to mock objects.
- */
+ 
 public class HelloAppTest {
 
-   // @Test
+    @Test
     public void testMain() {
         String[] args = {"1"};
         HelloApp.main(args);
     }
 }
+*/
