@@ -32,7 +32,7 @@ public class HelloTest {
     }
     
     @Test
-    public void testMickey() {
+    public void testMickey1() {
         Hello hi = new Hello();
         String hello = hi.sayHello();
 
