@@ -17,8 +17,8 @@ public class HelloTest {
         Hello hi = new Hello();
         String hello = hi.sayHello();
 
-        //assertNotEquals(hello, "Hello");
-        assertEquals(hello, "Mickey Fan");
+        assertNotEquals(hello, "Hello");
+        assertEquals("1", "1");
                 
     }
 }
