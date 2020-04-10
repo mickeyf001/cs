@@ -79,7 +79,9 @@ public class ArithmeticOperationsTest {
         ArithmeticOperations operations = new ArithmeticOperations();
         Integer actual = operations.div(10, isSuccess ? 5 : 0);
         Integer expected = isSuccess ? 2 : 4;
-        assertEquals(expected, actual);
+        //assertEquals(expected, actual);
+        assertEquals(7, 6);
+        
     }
 
     @Test
@@ -88,13 +90,13 @@ public class ArithmeticOperationsTest {
         assertEquals("10 is a even number", true, meo.isEvenNumber(isSuccess ? 10 : 13));
     }
 
-    /*
+    
     @Test
     public void testForNull(){
         ArithmeticOperations meo = isSuccess ? new ArithmeticOperations() : null;
         assertEquals("10 is a even number", true, meo.isEvenNumber(isSuccess ? 10 : 13));
     }
-    */
+    
     
 }
 
