@@ -31,7 +31,14 @@ public class HelloTest {
                 
     }
     
-    
+    @Test
+    public void testMickey() {
+        Hello hi = new Hello();
+        String hello = hi.sayHello();
+
+        assertEquals("Donald", "Donald");
+                
+    }
     
     
 }
