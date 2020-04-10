@@ -40,5 +40,14 @@ public class HelloTest {
                 
     }
     
+    @Test
+    public void testMickey2() {
+        Hello hi = new Hello();
+        String hello = hi.sayHello();
+
+        assertEquals("Minnie", "Minnie");
+                
+    }
+    
     
 }
