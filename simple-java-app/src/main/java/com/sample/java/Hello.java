@@ -25,8 +25,9 @@ public class Hello {
         this.times = (short) times;
     }
 
-    /**
+     /**
      * Say "Hello!".
+     * @return this Student's name.
      */
     public String sayHello() {
         String hello = "";
