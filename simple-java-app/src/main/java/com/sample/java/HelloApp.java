@@ -1,7 +1,7 @@
 package com.sample.java;
 
 /**
- * A very basic program that demonstrates the use of JUnit tests. The tests include a sample unit test and an
+ * A very basic program that demonstrates the use of JUnit tests. The tests include a sample unit test and a
  * integration test.
  */
 public class HelloApp {
