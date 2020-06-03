@@ -104,4 +104,14 @@ public class HelloTest {
     }
 
     
+        @Test
+    public void testMickey9() {
+        Hello hi = new Hello();
+        String hello = hi.sayHello();
+
+        assertEquals("Hugo", "Hugo");
+                
+    }
+    
+    
 }
