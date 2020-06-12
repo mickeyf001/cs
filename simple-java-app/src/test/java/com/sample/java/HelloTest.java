@@ -131,4 +131,13 @@ public class HelloTest {
                 
     }
     
+         @Test
+    public void testMickeyz() {
+        Hello hi = new Hello();
+        String hello = hi.sayHello();
+
+        assertEquals("Karen", "Karen");
+                
+    }
+    
 }
