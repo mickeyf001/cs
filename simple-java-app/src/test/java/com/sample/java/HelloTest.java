@@ -140,4 +140,15 @@ public class HelloTest {
                 
     }
     
+             @Test
+    public void testMickeyzz() {
+        Hello hi = new Hello();
+        String hello = hi.sayHello();
+
+        assertEquals("Karen", "Karen");
+                
+    }
+    
+    
+    
 }
