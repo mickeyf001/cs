@@ -161,7 +161,7 @@ public class HelloTest {
                      @Test
     public void testMickeybct1() {
         Hello hi = new Hello();
-        String hello = hi.sayHello();
+        String hello =  hi.sayHello();
 
         assertEquals("Karen", "Karen");
                 
