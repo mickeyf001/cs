@@ -158,7 +158,14 @@ public class HelloTest {
                 
     }
         
+                 @Test
+    public void testMickeybupa() {
+        Hello hi = new Hello();
+        String hello = hi.sayHello();
 
+        assertEquals("Karen", "Karen");
+                
+    }
     
     
 }
