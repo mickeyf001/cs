@@ -195,4 +195,13 @@ public class HelloTest {
                 
     }
     
+                                 @Test
+    public void testMacauUST() {
+        Hello hi = new Hello();
+        String hello = hi.sayHello();
+
+        assertEquals("Mic", "Mic");
+                
+    }
+    
 }
