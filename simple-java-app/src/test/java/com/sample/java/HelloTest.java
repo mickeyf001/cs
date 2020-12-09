@@ -204,4 +204,14 @@ public class HelloTest {
                 
     }
     
+    
+    @Test
+    public void testMacauUST1() {
+        Hello hi = new Hello();
+        String hello = hi.sayHello();
+
+        assertEquals("Mick", "Mick");
+                
+    }
+    
 }
